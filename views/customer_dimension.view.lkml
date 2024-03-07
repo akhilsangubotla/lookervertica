@@ -3,6 +3,7 @@ view: customer_dimension {
 
   dimension: annual_income {
     type: number
+    tags : ["Tag","Added"]
     sql: ${TABLE}.annual_income ;;
   }
 
